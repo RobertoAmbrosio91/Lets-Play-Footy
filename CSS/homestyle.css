@@ -1,0 +1,221 @@
+/*css homestyle*/
+
+body {
+
+  background: url(../Images/background1.png);
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  background-position: center;
+  height: 100vh;
+  z-index: 1;
+ 
+}
+
+/*this is the navigation bar section*/
+
+header{
+  width: 100%;
+}
+
+
+.logosmall{
+	width: 50px;
+	height:70px;
+	margin-left:10px;
+	margin-top: -10px;
+}
+
+.logo2{
+	width: 100%;
+	
+}
+
+nav{
+  background:rgba(64, 63, 62,0.7);
+  height:14vh;
+  width:100%;
+  font-family: 'Goldman', cursive;
+  font-size: 20px;
+  z-index: 100;
+ 
+}
+
+a{
+  color: white;
+  margin-right: 200px;
+}
+
+.collapse{
+  margin-left: 170px;
+}
+
+.navbar-brand{
+  margin-left: 5px;
+}
+
+
+/*This is the main contents section*/
+
+
+
+.container{
+  width: 33%;
+  height: 50%;
+position: absolute;
+top: 12%;
+left:10%;
+}
+
+
+.logo{
+margin-top: 18%;
+margin-left: 15%;
+width:50%;
+}
+
+
+
+.paralogo{
+	color:white;
+	font-size:2.5em;
+	font-family: 'Goldman', cursive;
+	font-weight:bold;
+	margin-top:0px;
+
+}
+
+.paralogo1{
+	color:white;
+	font-size:2.188em;
+	font-family: 'Goldman', cursive;
+	margin-top:-5%;
+	margin-left:3%;
+}
+
+.location{
+	text-decoration: none;
+	width:34%;
+	height: 22%;
+	text-align:center;
+  margin-left: 8%;
+
+}
+
+.search{
+	width:17%;
+	height: 20%;
+	text-align:center;
+}
+
+form{
+	margin-top: 0%;
+  margin-left: 2%;
+}
+
+input[type=text]{
+	border-radius: 5px;
+}
+
+input[type=submit]{
+	border-radius: 5px;
+	position: relative;
+}
+
+.signup{
+	width: 20%;
+	height: 5%;
+	background:red;
+	color:white;
+	margin-top:2%;
+	margin-left:22%;
+	font-weight: bold;
+	border-radius: 25px;
+ text-align: center;
+
+}
+
+.signup2{
+  color:white;
+    font-family: 'Goldman', cursive;
+    text-decoration: none;
+    text-align: center;
+}
+.signup2:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.clear{
+	clear: left;
+}
+
+footer{
+  width: 100%;
+  position:absolute;
+  bottom:2px;
+  left:0;
+  color:white;
+  display: inline-block;
+  
+}
+
+
+
+
+  .fab{
+  color: white;
+  margin: 5px;
+  float: right;
+}
+
+
+button:hover{
+	cursor: pointer;
+	position:relative;
+}
+ 
+
+
+
+
+input:hover{
+	cursor: pointer;
+}
+
+
+  
+  @media (min-width:360px) and (max-width: 640px){
+
+
+
+  .container{
+    width: 80%;
+    font-size:10px;
+    position: absolute;
+    top:92vh;
+    left:17%;
+
+  }
+
+  footer{
+  width: 100%;
+  position:absolute;
+  bottom:-450px;
+  left:0;
+  background: rgba(64, 63, 62,0.7);
+   
+}
+
+body{
+   background-color: #a3a3a3;
+ 
+
+ }
+
+
+ a{
+  color: white;
+  margin-right: 0px;
+}
+
+  

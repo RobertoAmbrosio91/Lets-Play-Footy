@@ -1,0 +1,174 @@
+/*css games 2 style*/
+body {
+
+  background: url(../Images/background2.jpg);
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+	  background-size: 100%;
+
+
+  }
+
+/*This is the navigation bar section*/
+
+.logosmall{
+  width: 50px;
+  height:70px;
+  margin-left:10px;
+  margin-top: -10px;
+}
+
+.logo2{
+  width: 100%;
+  ;
+}
+
+nav{
+  background:rgba(64, 63, 62,0.7);
+  height:14vh;
+  width:100%;
+  font-family: 'Goldman', cursive;
+  font-size: 20px;
+ 
+}
+
+a{
+  color: white;
+  margin-right: 200px;
+}
+
+.collapse{
+  margin-left: 170px;
+}
+
+.navbar-brand{
+  margin-left: 5px;
+}
+
+
+
+footer{
+  position:absolute;
+  bottom:-650px;
+  left:0;
+  color:white;
+  text-align: center;
+  background: rgba(64, 63, 62,0.7);
+  width: 100%;
+  height: 40px;
+
+}
+
+/*This is the main content section left div*/
+
+div{
+  display: inline-block;
+}
+
+ .fab{
+  color: white;
+  margin: 5px;
+  float: right;
+}
+
+.container{
+  position: absolute;
+  left: 3%;
+  top: 150px;
+  background: rgba(255,255,255,0.5);
+  width: 30%;
+  height: 1100px;
+  border-radius: 5px;
+
+}
+
+.top{
+  text-align: center;
+  font-weight: bold;
+}
+
+.pitch{
+width: 95%;
+height: 230px;
+}
+
+.containerteams{
+  width: 40%;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 200px;
+  background: rgba(255,255,255,0.5);
+  border-radius: 5px;
+}
+
+h2{
+  text-align: center;
+}
+
+/*This is the right div*/
+
+.teams{
+  position: absolute;
+  top: 50px;
+  left:30%;
+}
+
+.join{
+  position: absolute;
+  top: 90%;
+  left: 34%;
+  width: 32%;
+  background: red;
+  color: white;
+  border-radius: 25px;
+
+}
+
+@media (min-width: 360px) and (max-width: 640px){
+
+  body{
+     background: url(../Images/background2.jpg);
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+    background-size: 100%;
+ background-color: #a3a3a3;
+  }
+  .container{
+    width: 80%;
+    position: absolute;
+    top: 700px;
+    left: 10%;
+  }
+
+  .containerteams{
+    width: 80%;
+    height: 510px;
+    position: absolute;
+    top:15%;
+    left:10%; 
+  }
+
+  .teams{
+  position: absolute;
+  left:18%;
+}
+
+footer{
+  position:absolute;
+  bottom:-1250px;
+  left:0;
+  color:white;
+  text-align: center;
+  background: rgba(64, 63, 62,0.7);
+  width: 100%;
+  height: 70px;
+
+}
+
+a{
+  color: white;
+  margin-right: 0px;
+}
+
+}

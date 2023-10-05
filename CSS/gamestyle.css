@@ -1,0 +1,789 @@
+/*css games style*/
+
+
+body {
+
+  background: url(../Images/background2.jpg);
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+	  background-size: 100%;
+
+
+  }
+
+/*
+This is the navigation bar section*/
+
+.logosmall{
+  width: 50px;
+  height:70px;
+  margin-left:10px;
+  margin-top: -10px;
+}
+
+.logo2{
+  width: 100%;
+  ;
+}
+
+nav{
+  background:rgba(64, 63, 62,0.7);
+  height:14vh;
+  width:100%;
+  font-family: 'Goldman', cursive;
+  font-size: 20px;
+ 
+}
+
+a{
+  color: white;
+  margin-right: 200px;
+}
+
+.collapse{
+  margin-left: 170px;
+}
+
+.navbar-brand{
+  margin-left: 5px;
+}
+
+
+
+footer{
+  position:absolute;
+  bottom:-650px;
+  left:0;
+  color:white;
+  text-align: center;
+  background: rgba(64, 63, 62,0.7);
+  width: 100%;
+  height: 40px;
+
+}
+
+ .fab{
+  color: white;
+  margin: 5px;
+  float: right;
+}
+
+/*This is the section for the filters*/
+
+.filters{
+  background: rgba(255,255,255,0.5);
+  width: 330px;
+  height: 30px;
+  margin-top: 200px;
+  border-radius: 2px;
+  margin-left: 15px;
+  padding-left: 10px;
+  font-weight: bold;
+  position: fixed;
+  top: -20px;
+}
+
+.parafilt{
+margin-top: 3px;
+  font-family: 'Goldman', cursive;
+}
+
+.filters1{
+  width: 330px;
+  height: 395px;
+  background: rgba(255,255,255,0.5);
+  margin-top: 3px;
+  margin-left: 15px;
+  border-radius: 2px;
+  position: fixed;
+  top: 220px;
+}
+
+.clear{
+  clear: left;
+}
+
+.range{
+  padding:3px;
+  margin-top: 20px;
+}
+
+.today,.tomorrow,.selectdate{
+  margin-top:10px;
+  border-radius: 5px;
+  background: rgba(255,255,255,0.5)
+}
+
+.divbutton{
+  margin-left: 45px;
+}
+
+.location{
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 200px;
+  border-radius: 5px;
+  background: rgba(255,255,255,0.5)
+}
+
+.players{
+  margin-top: 20px;
+  margin-left: 3px;
+
+}
+
+select{
+  border-radius: 5px;
+  width: 150px;
+  background: rgba(255,255,255,0.5);
+}
+
+
+.checkbox{
+  margin-top: 10px;
+}
+
+.radio{
+  margin-top: 10px;
+}
+
+.apply{
+  margin-top: 25px;
+  margin-left: 75px;
+  width: 50%;
+  background: rgba(255,255,255,0.5)
+  border-radius:5px;
+}
+
+/*This is the section for the games*/
+
+.today1{
+  position: absolute;
+  left:27%;
+  top:300px;
+  background: rgba(255,255,255,0.5);
+  width: 50%;
+   height: 30px;
+   border-radius: 5px;
+
+}
+
+.paratoday{
+  font-weight: bold;
+  margin-left: 10px;
+margin-top: 4px;
+font-family: 'Goldman', cursive;
+
+}
+
+
+.upcoming{
+  position: absolute;
+  left: 27%;
+  top: 340px;
+  background: rgba(255,255,255,0.5);
+  width: 50%;
+  height: 570px;
+  border-radius: 5px;
+
+}
+
+.div1{
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  left:30px;
+  top: 10px;
+}
+
+.para1{
+  font-size: 1.25vw;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+   display: inline-block;
+}
+
+.a1{
+  font-size:1.65vw;
+  color:black;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+   display: inline-block;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.a1:hover{
+  color: white;
+}
+
+.num1{
+  width: 7%;
+  height: 4%;
+  background: blue;
+  color: white;
+  position: absolute;
+  top: 30px;
+  left: 90%;
+  text-align: center;
+  border-radius: 25px;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+.div2{
+  display: inline-block;
+  float: left;
+  width: 100%;
+  position: absolute;
+  left:30px;
+  top: 70px;
+}
+
+.para2{
+  font-size: 1.25vw;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+.a2{
+  font-size:1.65vw;
+  color:black;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+  display: inline-block;
+    margin-left: 50px;
+   margin-right: 50px;
+}
+
+.a2:hover{
+  color: white;
+}
+
+.num2{
+  width: 7%;
+  height: 4%;
+  background: blue;
+  color: white;
+  position: absolute;
+  top: 93px;
+  left: 90%;
+  text-align: center;
+  border-radius: 25px;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+.div3{
+  display: inline-block;
+  float: left;
+  width: 100%;
+  position: absolute;
+  left:30px;
+  top: 140px;
+}
+
+.para3{
+  
+  font-size: 1.25vw;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+.a3{
+  font-size:1.65vw;
+  color:black;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+  display: inline-block;
+    margin-left: 50px;
+   margin-right: 50px;
+}
+
+.a3:hover{
+  color: white;
+}
+
+.num3{
+  width: 7%;
+  height: 4%;
+  background: blue;
+  color: white;
+  position: absolute;
+  top: 163px;
+  left: 90%;
+  text-align: center;
+  border-radius: 25px;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+  display: inline-block;
+} 
+
+.div4{
+  display: inline-block;
+  float: left;
+  width: 100%;
+  position: absolute;
+  left:30px;
+  top: 210px;
+}
+
+.para4{
+  font-size: 1.25vw;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+.a4{
+  font-size:1.65vw;
+  color:black;
+ font-family: 'Goldman', cursive;
+ font-weight: lighter;
+ display: inline-block;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.a4:hover{
+  color: white;
+}
+
+.num4{
+  width: 7%;
+  height: 4%;
+  background: red;
+  color: white;
+  position: absolute;
+  top: 233px;
+  left: 90%;
+  text-align: center;
+  border-radius: 25px;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+.div5{
+  display: inline-block;
+  float: left;
+  width: 100%;
+  position: absolute;
+  left:30px;
+  top: 280px;
+}
+
+.para5{
+  font-size: 1.25vw;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+.a5{
+  font-size:1.65vw;
+  color:black;
+ font-family: 'Goldman', cursive;
+ font-weight: lighter;
+ display: inline-block;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.a5:hover{
+  color: white;
+}
+
+.num5{
+  width: 7%;
+  height: 4%;
+  background: blue;
+  color: white;
+  position: absolute;
+  top: 303px;
+  left: 90%;
+  text-align: center;
+  border-radius: 25px;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+
+.div6{
+  display: inline-block;
+  float: left;
+  width: 100%;
+  position: absolute;
+  left:30px;
+  top: 350px;
+}
+
+.para6{
+  font-size: 1.25vw;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+.a6{
+  font-size:1.65vw;
+  color:black;
+ font-family: 'Goldman', cursive;
+ font-weight: lighter;
+ display: inline-block;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.a6:hover{
+  color: white;
+}
+
+.num6{
+  width: 7%;
+  height: 4%;
+  background: blue;
+  color: white;
+  position: absolute;
+  top: 373px;
+  left: 90%;
+  text-align: center;
+  border-radius: 25px;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+
+.div7{
+  display: inline-block;
+  float: left;
+  width: 100%;
+  position: absolute;
+  left:30px;
+  top: 420px;
+}
+
+.para7{
+  font-size: 1.25vw;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+.a7{
+  font-size:1.65vw;
+  color:black;
+ font-family: 'Goldman', cursive;
+ font-weight: lighter;
+ display: inline-block;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.a7:hover{
+  color: white;
+}
+
+.num7{
+  width: 7%;
+  height: 4%;
+  background: red;
+  color: white;
+  position: absolute;
+  top: 443px;
+  left: 90%;
+  text-align: center;
+  border-radius: 25px;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+
+.div8{
+  display: inline-block;
+  float: left;
+  width: 100%;
+  position: absolute;
+  left:30px;
+  top: 490px;
+}
+
+.para8{
+  font-size: 1.25vw;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+.a8{
+  font-size:1.65vw;
+  color:black;
+ font-family: 'Goldman', cursive;
+ font-weight: lighter;
+ display: inline-block;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.a8:hover{
+  color: white;
+}
+
+.num8{
+  width: 7%;
+  height: 4%;
+  background: blue;
+  color: white;
+  position: absolute;
+  top: 513px;
+  left: 90%;
+  text-align: center;
+  border-radius: 25px;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+
+.tomorrow1{
+  position: absolute;
+  left:27%;
+  top:920px;
+  background: rgba(255,255,255,0.5);
+  width: 50%;
+   height: 30px;
+   border-radius: 5px;
+
+}
+
+
+.upcoming2{
+  position: absolute;
+  left: 27%;
+  top: 960px;
+  background: rgba(255,255,255,0.5);
+  width: 50%;
+  height: 220px;
+  border-radius: 5px;
+
+}
+
+.div9{
+  display: inline-block;
+  float: left;
+  width: 100%;
+  position: absolute;
+  left:30px;
+  top: 10px;
+}
+
+.para9{
+  font-size: 1.25vw;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+.a9{
+  font-size:1.65vw;
+  color:black;
+ font-family: 'Goldman', cursive;
+ font-weight: lighter;
+ display: inline-block;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.a9:hover{
+  color: white;
+}
+
+.num9{
+  width: 7%;
+  height: 10%;
+  background: blue;
+  color: white;
+  position: absolute;
+  top: 33px;
+  left: 90%;
+  text-align: center;
+  border-radius: 25px;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+
+.div10{
+  display: inline-block;
+  float: left;
+  width: 100%;
+  position: absolute;
+  left:30px;
+  top: 80px;
+}
+
+.para10{
+  font-size: 1.25vw;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+.a10{
+  font-size:1.65vw;
+  color:black;
+ font-family: 'Goldman', cursive;
+ font-weight: lighter;
+ display: inline-block;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.a10:hover{
+  color: white;
+}
+
+.num10{
+  width: 7%;
+  height: 10%;
+  background: blue;
+  color: white;
+  position: absolute;
+  top: 103px;
+  left: 90%;
+  text-align: center;
+  border-radius: 25px;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+  display: inline-block;
+}
+	
+.div11{
+  display: inline-block;
+  float: left;
+  width: 100%;
+  position: absolute;
+  left:30px;
+  top: 150px;
+}
+
+.para11{
+  font-size: 1.25vw;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+.a11{
+  font-size:1.65vw;
+  color:black;
+ font-family: 'Goldman', cursive;
+ font-weight: lighter;
+ display: inline-block;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.a11:hover{
+  color: white;
+}
+
+.num11{
+  width: 7%;
+  height: 10%;
+  background: blue;
+  color: white;
+  position: absolute;
+  top: 173px;
+  left: 90%;
+  text-align: center;
+  border-radius: 25px;
+  font-family: 'Goldman', cursive;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+
+
+@media (min-width: 360px) and (max-width: 640px){
+
+  body{
+     background-color: #a3a3a3;
+  }
+
+  footer{
+
+  width: 100%;
+  position:absolute;
+  bottom:-950px;
+  left:0;
+  height: 70px;
+  }
+
+  .filters,.filters1{
+    width: 330px;
+    position: absolute;
+    left: 10%;
+    
+  }
+
+  .today1/*.upcoming,.tomorrow1, .upcoming2*/{
+    width: 330px;
+    position: absolute;
+    top: 97%;
+    left:13%;
+    
+  }
+
+  .upcoming{
+
+     width: 330px;
+    position: absolute;
+    top: 102%;
+    left: 13%;
+    
+
+  }
+
+  .tomorrow1{
+    width: 330px;
+    position: absolute;
+    top: 185%;
+    left: 13%;
+   
+  }
+
+  .upcoming2{
+     width: 330px;
+    position: absolute;
+    top: 191%;
+    left: 13%;
+    
+
+  }
+
+  .num9,.num10,.num11{
+    font-size: 6px;
+    text-align: center;
+    height: 5%;
+  }
+
+  .num1,.num2,.num3,.num4,.num5,.num6,.num7,.num8{
+     font-size: 6px;
+    text-align: center;
+    height: 2%;
+  }
+
+  a{
+  color: white;
+  margin-right: 0px;
+}
+}
